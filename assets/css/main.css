@@ -1186,13 +1186,13 @@ pre code {
   position: relative;
   padding: 0;
   margin: 0;
-  height: 500px;
+  height: 200px;
   background-color: #fff;
   overflow: hidden;
 }
 
 .page-image .cover-image {
-  height: 25%;
+  height: 100%;
   width: 100%;
 }
 
