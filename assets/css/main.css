@@ -994,6 +994,21 @@ pre code {
   opacity: .8;
 }
 
+.science-figure {
+/*  padding: 15px 0; */
+  text-decoration: none;
+  text-align: center;
+}
+
+.science-figure p {
+	font-family: sans-serif;
+	font-style: italic;
+/*  text-transform: uppercase; */
+  font-weight: 300;
+  font-size: 12x;
+  color: #311e3e;
+}
+
 /* = = = = = = = = = = Search Styles = = = = = = = = = = */
 .search-box {
   padding-top: 40px;
