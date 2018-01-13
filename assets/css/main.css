@@ -1005,8 +1005,13 @@ pre code {
 	font-style: italic;
 /*  text-transform: uppercase; */
   font-weight: 300;
-  font-size: 12x;
+  font-size: 10x;
   color: #311e3e;
+}
+
+.science-figure .the-figure {
+  height: 100%;
+  width: 100%;
 }
 
 /* = = = = = = = = = = Search Styles = = = = = = = = = = */
