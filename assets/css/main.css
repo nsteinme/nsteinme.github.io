@@ -1701,7 +1701,7 @@ pre code {
     max-width: 95%;
   }
   .page-content {
-    margin-top: -150px;
+    margin-top: -200px;
     padding: 15px;
   }
   .header-page {
@@ -1724,7 +1724,7 @@ pre code {
     font-size: 16px;
   }
   .page-image {
-    height: 380px;
+    height: 250px;
   }
   .recent-box .recent-list .recent-item {
     position: relative;
