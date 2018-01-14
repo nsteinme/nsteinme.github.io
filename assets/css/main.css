@@ -994,6 +994,9 @@ pre code {
   opacity: .8;
 }
 
+/* = = = = = = = = = = Science Styles = = = = = = = = = = */
+
+
 .science-figure {
 /*  padding: 15px 0; */
   text-decoration: none;
@@ -1016,6 +1019,11 @@ pre code {
 .science-figure .the-figure {
   height: 80%;
   width: 100%;
+}
+
+.science-question {
+	font-family: sans-serif;
+	font-style: italic;
 }
 
 /* = = = = = = = = = = Search Styles = = = = = = = = = = */
