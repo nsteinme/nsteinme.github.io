@@ -1,0 +1,39 @@
+---
+layout: defaultPage
+title: Widefield Calcium Imaging
+permalink: /widefield/
+---
+<article class="article-page">	
+	<div class="page-image">
+		<div class="cover-image" style="background: url({{"/assets/img/npixRasterShort.png" | prepend: site.baseurl}}) center no-repeat; background-size: cover;"></div>
+	</div>
+	<div class="wrapper">
+		<div class="page-content">
+			<div class="header-page">
+				<h1 class="page-title">Widefield Calcium Imaging</h1>
+			</div>
+			<p>We have used "widefield" imaging - covering the entire dorsal surface of the mouse brain - in transgenic mice as they perform a behavioral task. This strategy allows us to simultaneously observe activity across all cortical areas, to study the dynamics and coordination of these areas and their relationship to behavior. Compared to an approach like fMRI, this technique has much higher spatial and temporal resolution, and moreover measures a signal more directly related to neuronal activity (intracellular calcium levels, rather than blood flow).</p>
+
+<p>Our first finding using this technique was, unfortunately, a cautionary tale rather than a scientific outcome. We observed that several of the strains of transgenic mice developed for this purpose exhibited abnormal brain activity, activity similar to that seen in epilepsy. These observations were replicated in several other labs, so we published our findings in order to alert the field to this problem (Steinmetz et al., eNeuro, 2017). In retrospect, it may not have been surprising that neurons expressing high levels of a calcium-buffering protein exhibit altered activity, and this will be an important methodological caveat to bear in mind going forward.</p>
+
+<p>Code that we have written in Matlab for analyzing datasets of this type is available free and open source <a href="https://github.com/cortex-lab/widefield">on github</a>. This includes methods for compressing datasets and efficiently running analyses in the compressed space, methods for correcting imaging contamination due to blood flow, and graphical interfaces for visualizing the data in various convenient ways. </p>
+
+			<!--			<div class="science-figure">
+			<div class="the-figure" style="background: url({{"/assets/img/inact.png" | prepend: site.baseurl}}) center no-repeat; background-size: contain;"></div>
+			<div class="figure-text">caption </div>
+			</div>
+			-->
+
+			<h2>References</h2>
+			<ul>
+				<li><b>Steinmetz NA</b>, Buetfering C, Lecoq J, Lee CR, et al., <a href="http://www.eneuro.org/content/4/5/ENEURO.0207-17.2017">"Aberrant Cortical Activity in Multiple GCaMP6-Expressing Transgenic Mouse Lines"</a>, <i>eNeuro</i> (2017)</li>
+			</ul>
+
+			<div class="page-footer">
+			</div>
+		</div>
+	</div><!-- End Wrapper -->
+
+</article>
+<!--<img src="url({{"/assets/img/inact.png" | prepend: site.baseurl}})" alt="Systematic inactivation"> -->
+
