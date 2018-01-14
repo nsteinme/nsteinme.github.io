@@ -1218,7 +1218,7 @@ pre code {
   position: relative;
   padding: 0;
   margin: 0;
-  height: 200px;
+  height: 300px;
   background-color: #fff;
   overflow: hidden;
 }
@@ -1229,7 +1229,7 @@ pre code {
 }
 
 .page-content {
-  margin-top: -150px;
+  margin-top: -250px;
   margin-bottom: 100px;
   background-color: #fff;
   padding: 20px;
