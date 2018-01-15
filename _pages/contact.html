@@ -15,12 +15,12 @@ permalink: /contact/
 			<p> <h2> Contact Me </h2> </p>
 		
 			<ul class="contact-list">
-				<p>
+				
 					{% if site.email %}
-					<li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a>{{site.email}}</li>
+					<li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 					{% else %}
 					{% endif %}
-				</p>
+					
 				{% if site.phone %}
 				<li class="phone"><a href="tel:{{site.phone}}"><i class="fa fa-phone"></i></a></li>
 				{% else %}
@@ -64,7 +64,7 @@ permalink: /contact/
 				{% endif %}
 			</ul>
 		</section> <!-- End About Body-->
-		{{ content }}
+		
 		{% include pagination.html %}
 	</div> <!-- End Wrapper -->
 	{% include footer.html %}
