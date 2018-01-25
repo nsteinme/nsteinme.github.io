@@ -1,7 +1,7 @@
 /**
  * scholar.js
  * ---
- * @author Jérémy Levallois (http://www.karganys.fr)
+ * @author JÃ©rÃ©my Levallois (http://www.karganys.fr)
  * @version 0.1.1
  * ---
  * Note: Read the README.md
@@ -36,10 +36,12 @@ var Scholar = {
 
     $.ajax({
       url: Scholar.scholarURL + "citations?user=" + Scholar.author + "&hl=en&cstart=0&pagesize=100",
+	  crossOrigin: true,
+	  proxy: "https://users.encs.concordia.ca/~nikolaos/proxy.php",
       type: "GET",
       dataType: "html",
       success: function(res) {
-        var tmpFind = $(res.responseText).find( "#gsc_a_b" );
+        var tmpFind = $(res).find( "#gsc_a_b" );
         var tmpPubliArray = $(tmpFind).find( ".gsc_a_t" ).find( "a" );
         var tmp_publi_cite = $(tmpFind).find( ".gsc_a_c" );
 
@@ -50,10 +52,32 @@ var Scholar = {
         var regexTerm = new RegExp( ".*(citation_for_view=[\\d\\w\\-_]+\\:)" );
         for (i = 0; i < tmpPubliArray.length; i++) {
           publiName.push( $(tmpPubliArray[i]).text() );
-          publiId.push( $(tmpPubliArray[i]).attr( "href").replace(regexTerm, "") );
+          publiId.push( $(tmpPubliArray[i]).attr( "data-href").replace(regexTerm, "") );
           publiCiteCount.push( $(tmp_publi_cite[i]).text() );
         }
-
+		var citedPapers = publiCiteCount.filter(function(value) { return value > 0 }).length;
+		var tmpCitationFind = $(res).find( "#gsc_rsb_st" );
+		var tmp_total_cite = $(tmpCitationFind).find( ".gsc_rsb_std" );
+		for (i = 0; i < tmp_total_cite.length; i++) {
+			if ( i == 0 ) {
+				var citations =  $(tmp_total_cite[i]).text();
+				publiName.push( "citations" );
+				publiId.push( "citations" );
+				publiCiteCount.push( citations );
+				
+				publiName.push( "g-index" );
+				publiId.push( "g-index" );
+				var sqrtCitations = Math.floor(Math.sqrt(parseInt(citations)));
+				var gIndex = sqrtCitations <= citedPapers ? sqrtCitations : citedPapers;
+				publiCiteCount.push( String(gIndex) );
+			}
+			if ( i == 2 ) {
+				publiName.push( "h-index" );
+				publiId.push( "h-index" );
+				publiCiteCount.push( $(tmp_total_cite[i]).text() );
+			}
+		}
+		
         if( Scholar.debug ) {
           console.log( "Found " + publiName.length + " publications." );
 
@@ -110,7 +134,7 @@ var Scholar = {
               if( allElements[i].getAttribute( "target" )) {
                 target = "target=" + allElements[i].getAttribute( "target" );
               }
-              allElements[i].innerHTML = "<a " + target + " href=\"" + Scholar.scholarURL + "citations?view_op=view_citation&hl=en&user=" + Scholar.author + "&citation_for_view=" + Scholar.author + ":" + publiId[pos]  + "\">" + count + "</a>";
+              allElements[i].innerHTML = "<a " + target + " href=\"" + Scholar.scholarURL + "citations?view_op=view_citation&hl=en&user=" + Scholar.author + "&citation_for_view=" + Scholar.author + ":" + publiId[pos]  + "\" rel=\"external\">" + count + "</a>";
             }
             else {
               allElements[i].innerHTML = count;
@@ -133,79 +157,3 @@ var Scholar = {
     });
   }
 };
-
-/**
- * jQuery.ajax mid - CROSS DOMAIN AJAX
- * ---
- * @author James Padolsey (http://james.padolsey.com)
- * @version 0.11
- * @updated 12-JAN-10
- * ---
- * Note: Read the README!
- * ---
- * @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
- */
-
-jQuery.ajax = (function(_ajax){
-    "use strict";
-    var protocol = location.protocol,
-        hostname = location.hostname,
-        exRegex = new RegExp(protocol + "//" + hostname),
-        YQL = "http" + (/^https/.test(protocol)?'s':'') + "://query.yahooapis.com/v1/public/yql?callback=?",
-        query = "select * from html where url=\"{URL}\" and xpath=\"*\"";
-
-    function isExternal(url) {
-        return !exRegex.test(url) && /:\/\//.test(url);
-    }
-
-    return function(o) {
-
-        var url = o.url;
-
-        if ( (typeof o.type === "undefined" || /get/i.test(o.type)) && !/json/i.test(o.dataType) && isExternal(url) ) {
-
-            // Manipulate options so that JSONP-x request is made to YQL
-
-            o.url = YQL;
-            o.dataType = "json";
-
-            o.data = {
-                q: query.replace(
-                    "{URL}",
-                    url + (o.data ?
-                        (/\?/.test(url) ? '&' : '?') + jQuery.param(o.data)
-                    : '')
-                ),
-                format: "xml"
-            };
-
-            // Since it's a JSONP request
-            // complete === success
-            if( !o.success && o.complete ) {
-                o.success = o.complete;
-                delete o.complete;
-            }
-
-            o.success = (function(_success){
-                return function(data) {
-
-                    if (_success) {
-                        // Fake XHR callback.
-                        _success.call(this, {
-                            responseText: data.results[0]
-                                // YQL screws with <script>s
-                                // Get rid of them
-                                .replace(/<script[^>]+?\/>|<script(.|\s)*?\/script>/gi, '').replace(/<img[^>]+?\/>|<img(.|\s)*?\/img>/gi, '')
-                        }, "success" );
-                    }
-
-                };
-            })(o.success);
-
-        }
-
-        return _ajax.apply(this, arguments);
-
-    };
-
-})(jQuery.ajax);
