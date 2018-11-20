@@ -9,7 +9,7 @@
 			],
 			"authors_short": [
 				"Steinmetz",
-				"Zatka-Haas"
+				"Zatka-Haas",
 				"Carandini",
 				"Harris"
 			],
@@ -24,6 +24,28 @@
 				"behavior",
 				"vision",
 				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Shamash P",
+				"Carandini M",
+				"Harris KD",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Shamash",
+				"Carandini",
+				"Harris",
+				"Steinmetz"
+			],
+			"title": "A tool for analyzing electrode tracks from slice histology",
+			"year": "2018",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/early/2018/10/19/447995",
+			"tags": [
+				"preprint",
+				"neuropixels"
 			]
 		},
 		{
