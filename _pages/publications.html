@@ -15,32 +15,21 @@ permalink: /publications/
 			
 			{% assign pubs = site.data.pubs %}
 		  
-		  	<h2> Preprints </h2>
-			<ul>
-		  	{% for paper in pubs.papers %}
-				{% if paper.tags contains "preprint" %}
-					{% include paper.html %}
-				{% endif %}
-			{% endfor %}
-			</ul>
-			
-		  	<h2> Peer-Reviewed Publications </h2>
-			<ul>
-		  	{% for paper in pubs.papers %}
-				{% if paper.tags contains "peerReview" %}
-					{% include paper.html %}
-				{% endif %}
-			{% endfor %}
-			</ul>
-			
-		  	<h2> Reviews and Commentary </h2>
-			<ul>
-		  	{% for paper in pubs.papers %}
-				{% if paper.tags contains "review" %}
-					{% include paper.html %}
-				{% endif %}
-			{% endfor %}
-			</ul>
+         {% assign years = "2020, 2019, 2018, 2017, 2016, 2015, 2014, 2010" | split: ", " %}
+
+         {% for year in years %}
+         <p><h2>{{ year }}</h2>
+
+          {% assign papers = pubs.papers | where_exp:"item", "item.year == year" %} 
+          <ul>
+            {% for paper in  papers %}
+              {% if paper.tags contains "selected" %}
+                {% include paper.html %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+
+          {% endfor %}
 			
 			<div class="page-footer">
 			</div>
