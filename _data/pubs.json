@@ -2,27 +2,38 @@
 	"papers": [
 		{
 			"authors": [
+				"Schroeder S",
 				"Steinmetz NA",
-				"Zatka-Haas P",
-				"Carandini M",
-				"Harris KD"
+				"Krumin M",
+				"Pachitariu M",
+				"Rizzi M",
+				"Lagnado L",
+				"Harris KD",
+				"Carandini M"
 			],
 			"authors_short": [
+				"Schroeder",
 				"Steinmetz",
-				"Zatka-Haas",
-				"Carandini",
-				"Harris"
+				"Krumin",
+				"Pachitariu",
+				"Rizzi",
+				"Lagnado",
+				"Harris",
+				"Carandini"
 			],
-			"title": "Distributed correlates of visually-guided behavior across the mouse brain",
-			"year": "2018",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/11/20/474437",
+			"title": "Arousal modulates retinal output",
+			"year": "2020",
+			"journal": "Neuron",
+			"link": "https://www.sciencedirect.com/science/article/pii/S0896627320303184",
+			"pdflink": "Schroeder et al - 2020 - Neuron.pdf",
 			"tags": [
-				"preprint",
+				"peerReview",
+				"selected",
 				"neuropixels",
-				"population",
+				"optogenetics",
 				"behavior",
 				"vision",
+				"cortex",
 				"brainwide"
 			]
 		},
@@ -39,12 +50,13 @@
 				"Carandini",
 				"Harris"
 			],
-			"title": "Distinct contributions of mouse cortical areas to visual discrimination",
-			"year": "2018",
+			"title": "A perceptual decision requires sensory but not action coding in mouse cortex",
+			"year": "2020",
 			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/12/21/501627",
+			"link": "https://www.biorxiv.org/content/10.1101/501627v3",
 			"tags": [
 				"preprint",
+				"selected",
 				"neuropixels",
 				"optogenetics",
 				"widefield",
@@ -52,6 +64,192 @@
 				"behavior",
 				"vision",
 				"cortex"
+			]
+		},
+		{
+			"authors": [
+				"The International Brain Laboratory",
+				"...",
+				"Steinmetz NA",
+				"et al."
+			],
+			"authors_short": [
+				"<a href=http://www.internationalbrainlab.org>The IBL</a>",
+				"...",
+				"Steinmetz",
+				"et al."
+			],
+			"title": "Data architecture for a large-scale neuroscience collaboration",
+			"year": "2020",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/827873v3",
+			"tags": [
+				"preprint",
+				"selected",
+				"IBL"
+			]
+		},
+		{
+			"authors": [
+				"Van Kempen J",
+				"Gieselmann MA",
+				"Boyd M", 
+				"Steinmetz NA",
+				"Moore T",
+				"Engel TA", 
+				"Thiele A"
+			],
+			"authors_short": [
+				"Van Kempen",
+				"Gieselmann",
+				"Boyd", 
+				"Steinmetz NA",
+				"Moore",
+				"Engel", 
+				"Thiele"
+			],
+			"title": "Top-down coordination of local cortical state during selective attention",
+			"year": "2020",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2020.03.26.009365v1",
+			"tags": [
+				"preprint",
+				"attention", 
+				"dynamics", 
+				"vision", 
+				"behavior"
+			]
+		},
+		{
+			"authors": [
+				"Dimitriadis G",
+				"Neto J",
+				"...",
+				"Steinmetz NA",
+				"et al."
+			],
+			"authors_short": [
+				"Dimitriadis",
+				"Neto", 
+				"...",
+				"Steinmetz",
+				"et al."
+			],
+			"title": "Why not record from every electrode with a CMOS scanning probe?",
+			"year": "2020",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/275818v8",
+			"tags": [
+				"preprint",
+				"neuropixels"
+			]
+		},
+		{
+			"authors": [
+				"Steinmetz NA",
+				"Zatka-Haas P",
+				"Carandini M",
+				"Harris KD"
+			],
+			"authors_short": [
+				"Steinmetz",
+				"Zatka-Haas",
+				"Carandini",
+				"Harris"
+			],
+			"title": "Distributed coding of choice, action, and engagement across the mouse brain",
+			"year": "2019",
+			"journal": "Nature",
+			"link": "https://www.nature.com/articles/s41586-019-1787-x",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"population",
+				"behavior",
+				"vision",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Stringer C*",
+				"Pachitariu P*",
+				"Steinmetz NA",
+				"Carandini M",
+				"Harris KD"
+			],
+			"authors_short": [
+				"Stringer*",
+				"Pachitariu*",
+				"Steinmetz",
+				"Carandini",
+				"Harris"
+			],
+			"title": "High-dimensional geometry of population responses in visual cortex",
+			"year": "2019",
+			"journal": "Nature",
+			"link": "https://www.nature.com/articles/s41586-019-1346-5",
+			"pdflink": "Stringer et al - 2019 - Nature.pdf",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"population",
+				"vision"
+			]
+		},
+		{
+			"authors": [
+				"Stringer C*",
+				"Pachitariu P*",
+				"Steinmetz NA",
+				"Reddy CB",
+				"Carandini M",
+				"Harris KD"
+			],
+			"title": "Spontaneous behaviors drive multidimensional, brain-wide population activity",
+			"year": "2019",
+			"journal": "Science",
+			"link": "https://science.sciencemag.org/content/364/6437/eaav7893",
+			"pdflink": "Stringer et al - 2019 - Science.pdf",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"population",
+				"behavior",
+				"brainwide"
+			],
+			"authors_short": [
+				"Stringer*",
+				"Pachitariu*",
+				"Steinmetz",
+				"Reddy",
+				"Carandini",
+				"Harris"
+			]
+		},
+		{
+			"authors": [
+				"Engel T",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Engel",
+				"Steinmetz"
+			],
+			"title": "New perspectives on dimensionality and variability from large-scale cortical dynamics",
+			"year": "2019",
+			"journal": "Current Opinion in Neurobiology",
+			"link": "https://doi.org/10.1016/j.conb.2019.09.003",
+			"tags": [
+				"review",
+				"selected",
+				"widefield",
+				"behavior",
+				"cortex",
+				"brainwide"
 			]
 		},
 		{
@@ -68,16 +266,123 @@
 				"Carandini"
 			],
 			"title": "The impact of bilateral ongoing activity on evoked responses in mouse cortex",
-			"year": "2018",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/11/22/476333",
+			"year": "2019",
+			"journal": "eLife",
+			"link": "https://elifesciences.org/articles/43533",
+			"pdflink": "Shimaoka et al - 2019 - eLife.pdf",
 			"tags": [
-				"preprint",
+				"peerReview",
+				"selected",
 				"widefield",
 				"population",
 				"behavior",
 				"vision",
 				"cortex"
+			]
+		},
+		{
+			"authors": [
+				"Okun M",
+				"Steinmetz NA",
+				"Lak A",
+				"Dervinis M",
+				"Harris KD"
+			],
+			"title": "Distinct structure of cortical population activity on fast and infraslow timescales",
+			"year": "2019",
+			"journal": "Cerebral Cortex",
+			"link": "https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhz023/5364043",
+			"pdflink": "Okun et al - 2019 - Cerebral Cortex.pdf",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"dynamics",
+				"population",
+				"brainwide"
+			],
+			"authors_short": [
+				"Okun",
+				"Steinmetz",
+				"Lak",
+				"Dervinis",
+				"Harris"
+			]
+		},
+		{
+			"authors": [
+				"Pettine WW",
+				"Steinmetz NA",
+				"Moore T"
+			],
+			"title": "Laminar Segregation of Sensory Coding and Behavioral Readout in Macaque V4",
+			"year": "2019",
+			"journal": "PNAS",
+			"link": "https://www.pnas.org/content/early/2019/06/26/1819398116.short",
+			"pdflink": "Pettine et al - 2019 - PNAS.pdf",
+			"tags": [
+				"peerReview",
+				"vision",
+				"microcircuits",
+				"behavior",
+				"population",
+				"attention"
+			],
+			"authors_short": [
+				"Pettine",
+				"Steinmetz",
+				"Moore"
+			]
+		},
+		{
+			"authors": [
+				"Peters A",
+				"Steinmetz NA",
+				"Harris KD",
+				"Carandini M"
+			],
+			"authors_short": [
+				"Peters",
+				"Steinmetz",
+				"Harris",
+				"Carandini"
+			],
+			"title": "Striatal activity reflects cortical activity patterns",
+			"year": "2019",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/703710v1",
+			"tags": [
+				"preprint",
+				"neuropixels",
+				"widefield",
+				"behavior",
+				"vision",
+				"cortex",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Steinmetz NA",
+				"Koch C",
+				"Harris KD",
+				"Carandini M"
+			],
+			"title": "Challenges and opportunities for large-scale electrophysiology with Neuropixels probes",
+			"year": "2018",
+			"journal": "Current Opinion in Neurobiology",
+			"link": "https://doi.org/10.1016/j.conb.2018.01.009",
+			"pdflink": "Steinmetz et al. - 2018 - Challenges and opportunities for large-scale electrophysiology with Neuropixels probes.pdf",
+			"tags": [
+				"review",
+				"selected",
+				"neuropixels"
+			],
+			"authors_short": [
+				"Steinmetz",
+				"Koch",
+				"Harris",
+				"Carandini"
 			]
 		},
 		{
@@ -100,59 +405,6 @@
 			"tags": [
 				"preprint",
 				"neuropixels"
-			]
-		},
-		{
-			"authors": [
-				"Stringer C*",
-				"Pachitariu P*",
-				"Steinmetz NA",
-				"Carandini M",
-				"Harris KD"
-			],
-			"authors_short": [
-				"Stringer*",
-				"Pachitariu*",
-				"Steinmetz",
-				"Carandini",
-				"Harris"
-			],
-			"title": "High-dimensional geometry of population responses in visual cortex",
-			"year": "2018",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/07/22/374090",
-			"tags": [
-				"preprint",
-				"neuropixels",
-				"population",
-				"vision"
-			]
-		},
-		{
-			"authors": [
-				"Stringer C*",
-				"Pachitariu P*",
-				"Steinmetz NA",
-				"Carandini M",
-				"Harris KD"
-			],
-			"title": "Spontaneous behaviors drive multidimensional, brain-wide population activity",
-			"year": "2018",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/04/22/306019",
-			"tags": [
-				"preprint",
-				"neuropixels",
-				"population",
-				"behavior",
-				"brainwide"
-			],
-			"authors_short": [
-				"Stringer*",
-				"Pachitariu*",
-				"Steinmetz",
-				"Carandini",
-				"Harris"
 			]
 		},
 		{
@@ -182,80 +434,6 @@
 		},
 		{
 			"authors": [
-				"Okun M",
-				"Steinmetz NA",
-				"Lak A",
-				"Dervinis M",
-				"Harris KD"
-			],
-			"title": "Distinct structure of cortical population activity on fast and infraslow timescales",
-			"year": "2019",
-			"journal": "Cerebral Cortex",
-			"link": "https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhz023/5364043",
-			"tags": [
-				"peerReview",
-				"neuropixels",
-				"dynamics",
-				"population",
-				"brainwide"
-			],
-			"authors_short": [
-				"Okun",
-				"Steinmetz",
-				"Lak",
-				"Dervinis",
-				"Harris"
-			]
-		},
-		{
-			"authors": [
-				"Pettine WW",
-				"Steinmetz NA",
-				"Moore T"
-			],
-			"title": "Laminar Segregation of Sensory Coding and Behavioral Readout in Macaque V4",
-			"year": "2018",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/08/29/399626",
-			"tags": [
-				"preprint",
-				"vision",
-				"microcircuits",
-				"behavior",
-				"population",
-				"attention"
-			],
-			"authors_short": [
-				"Pettine",
-				"Steinmetz",
-				"Moore"
-			]
-		},
-		{
-			"authors": [
-				"Steinmetz NA",
-				"Koch C",
-				"Harris KD",
-				"Carandini M"
-			],
-			"title": "Large-scale electrophysiology with Neuropixels probes",
-			"year": "2018",
-			"journal": "Current Opinion in Neurobiology",
-			"link": "https://doi.org/10.1016/j.conb.2018.01.009",
-			"pdflink": "Steinmetz et al. - 2018 - Challenges and opportunities for large-scale electrophysiology with Neuropixels probes.pdf",
-			"tags": [
-				"review",
-				"neuropixels"
-			],
-			"authors_short": [
-				"Steinmetz",
-				"Koch",
-				"Harris",
-				"Carandini"
-			]
-		},
-		{
-			"authors": [
 				"Jun J*",
 				"Steinmetz NA*",
 				"Siegle JH*",
@@ -273,6 +451,7 @@
 			"pdflink": "Jun et al. - 2017 - Fully Integrated Silicon Probes for High-Density Recording of Neural Activity.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"neuropixels",
 				"methods"
 			],
@@ -303,6 +482,7 @@
 			"pdflink": "Burgess et al. - 2017 - High-Yield Methods for Accurate Two-Alternative Visual Psychophysics in Head-Fixed Mice.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"behavior",
 				"methods",
 				"psychophysics"
@@ -330,6 +510,7 @@
 			"pdflink": "Steinmetz et al. - 2017 - Aberrant Cortical Activity In Multiple GCaMP6-Expressing Transgenic Mouse Lines.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"widefield",
 				"methods"
 			],
@@ -383,6 +564,7 @@
 			"pdflink": "Engel et al. - 2016 - Selective modulation of cortical state during spatial attention.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"attention",
 				"dynamics",
 				"vision",
@@ -438,7 +620,7 @@
 			],
 			"title": "Fast and accurate spike sorting of high-channel count probes with KiloSort",
 			"year": "2016",
-			"journal": "NIPS",
+			"journal": "NeurIPS",
 			"link": "https://papers.nips.cc/paper/6326-fast-and-accurate-spike-sorting-of-high-channel-count-probes-with-kilosort",
 			"pdflink": "Pachitariu et al. - 2016 - Fast and accurate spike sorting of high-channel count probes with KiloSort.pdf",
 			"tags": [
@@ -469,6 +651,7 @@
 			"pdflink": "Okun et al. - 2015 - Diverse coupling of neurons to populations in sensory cortex.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"dynamics",
 				"population",
 				"vision",
@@ -520,6 +703,7 @@
 			"pdflink": "Steinmetz, Moore - 2014 - Eye Movement Preparation Modulates Neuronal Responses in Area V4 When Dissociated from Attentional Demands.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"vision",
 				"attention",
 				"behavior"
@@ -565,6 +749,7 @@
 			"pdflink": "Zirnsak et al. - 2014 - Visual space is compressed in prefrontal cortex before eye movements.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"vision",
 				"attention",
 				"behavior"
@@ -574,6 +759,45 @@
 				"Steinmetz",
 				"Noudoost",
 				"Xu",
+				"Moore"
+			]
+		},
+		{
+			"authors": [
+				"Squire RF*",
+				"Steinmetz NA*",
+				"Moore T"
+			],
+			"title": "Frontal Eye Fields",
+			"year": "2012",
+			"journal": "Scholarpedia",
+			"link": "http://www.scholarpedia.org/article/Frontal_eye_field",
+			"tags": [
+				"review",
+				"attention"
+			],
+			"authors_short": [
+				"Squire*",
+				"Steinmetz*",
+				"Moore"
+			]
+		},
+		{
+			"authors": [
+				"Steinmetz NA",
+				"Moore T"
+			],
+			"title": "Lumping and splitting the neural circuitry of visual attention",
+			"year": "2012",
+			"journal": "Neuron",
+			"link": "https://www.ncbi.nlm.nih.gov/pubmed/22325195",
+			"pdflink": "Steinmetz, Moore - 2012 - Lumping and splitting the neural circuitry of visual attention.pdf",
+			"tags": [
+				"commentary",
+				"attention"
+			],
+			"authors_short": [
+				"Steinmetz",
 				"Moore"
 			]
 		},
@@ -589,12 +813,36 @@
 			"pdflink": "Steinmetz, Moore - 2010 - Changes in the response rate and response variability of area V4 neurons during the preparation of saccadic ey.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"vision",
 				"attention",
 				"behavior",
 				"dynamics"
 			],
 			"authors_short": [
+				"Steinmetz",
+				"Moore"
+			]
+		},
+		{
+			"authors": [
+				"Noudoost B",
+				"Chang MH",
+				"Steinmetz NA",
+				"Moore T"
+			],
+			"title": "Top-down control of visual attention",
+			"year": "2010",
+			"journal": "Current Opinion in Neurobiology",
+			"link": "https://www.ncbi.nlm.nih.gov/pubmed/20303256",
+			"pdflink": "Noudoost et al. - 2010 - Top-down control of visual attention.pdf",
+			"tags": [
+				"review",
+				"attention"
+			],
+			"authors_short": [
+				"Noudoost",
+				"Chang",
 				"Steinmetz",
 				"Moore"
 			]
@@ -736,68 +984,6 @@
 				"Steinmetz",
 				"...",
 				"Frank"
-			]
-		},
-		{
-			"authors": [
-				"Squire RF*",
-				"Steinmetz NA*",
-				"Moore T"
-			],
-			"title": "Frontal Eye Fields",
-			"year": "2012",
-			"journal": "Scholarpedia",
-			"link": "http://www.scholarpedia.org/article/Frontal_eye_field",
-			"tags": [
-				"review",
-				"attention"
-			],
-			"authors_short": [
-				"Squire*",
-				"Steinmetz*",
-				"Moore"
-			]
-		},
-		{
-			"authors": [
-				"Steinmetz NA",
-				"Moore T"
-			],
-			"title": "Lumping and splitting the neural circuitry of visual attention",
-			"year": "2012",
-			"journal": "Neuron",
-			"link": "https://www.ncbi.nlm.nih.gov/pubmed/22325195",
-			"pdflink": "Steinmetz, Moore - 2012 - Lumping and splitting the neural circuitry of visual attention.pdf",
-			"tags": [
-				"review",
-				"attention"
-			],
-			"authors_short": [
-				"Steinmetz",
-				"Moore"
-			]
-		},
-		{
-			"authors": [
-				"Noudoost B",
-				"Chang MH",
-				"Steinmetz NA",
-				"Moore T"
-			],
-			"title": "Top-down control of visual attention",
-			"year": "2010",
-			"journal": "Current Opinion in Neurobiology",
-			"link": "https://www.ncbi.nlm.nih.gov/pubmed/20303256",
-			"pdflink": "Noudoost et al. - 2010 - Top-down control of visual attention.pdf",
-			"tags": [
-				"review",
-				"attention"
-			],
-			"authors_short": [
-				"Noudoost",
-				"Chang",
-				"Steinmetz",
-				"Moore"
 			]
 		}
 	]
