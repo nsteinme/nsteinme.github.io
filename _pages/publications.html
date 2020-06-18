@@ -23,9 +23,7 @@ permalink: /publications/
           {% assign papers = pubs.papers | where_exp:"item", "item.year == year" %} 
           <ul>
             {% for paper in  papers %}
-              <!--{% if paper.tags contains "selected" %}-->
                 {% include paper.html %}
-              <!--{% endif %}-->
             {% endfor %}
           </ul>
 
