@@ -2,6 +2,34 @@
 	"papers": [
 		{
 			"authors": [
+				"Steinmetz NA*",
+				"Aydin C*",
+				"Lebedeva A*",
+				"Okun M*",
+				"Pachitariu M*",
+				"et al."
+			],
+			"authors_short": [
+				"Steinmetz*",
+				"Aydin*",
+				"Lebedeva*",
+				"Okun*",
+				"Pachitariu*",
+				"et al."
+			],
+			"title": "Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings",
+			"year": "2020",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2020.10.27.358291v1",
+			"tags": [
+				"preprint",
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
 				"Schroeder S",
 				"Steinmetz NA",
 				"Krumin M",
@@ -35,6 +63,34 @@
 				"vision",
 				"cortex",
 				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Jacobs EAK",
+				"Steinmetz NA",
+				"Peters AJ",
+				"Carandini M",
+				"Harris KD"
+			],
+			"title": "Cortical state fluctuations during sensory decision making",
+			"year": "2020",
+			"journal": "Current Biology",
+			"link": "https://doi.org/10.1016/j.cub.2020.09.067",
+			"tags": [
+				"peerReview",
+				"widefield",
+				"dynamics",
+				"behavior",
+				"selected",
+				"brainwide"
+			],
+			"authors_short": [
+				"Jacobs",
+				"Steinmetz",
+				"Peters",
+				"Carandini",
+				"Harris"
 			]
 		},
 		{
@@ -91,6 +147,36 @@
 		},
 		{
 			"authors": [
+				"Shi Y-L",
+				"Steinmetz NA",
+				"Moore T",
+				"Boahen K",
+				"Engel TA"
+			],
+			"authors_short": [
+				"Shi",
+				"Steinmetz",
+				"Moore",
+				"Boahen",
+				"Engel"
+			],
+			"title": "Influence of On-Off dynamics and selective attention on the spatial pattern of correlated variability in neocortex",
+			"year": "2020",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2020.09.02.279893v1",
+			"tags": [
+				"preprint",
+				"selected",
+				"vision",
+				"cortex",
+				"population",
+				"behavior",
+				"attention",
+				"dynamics"
+			]
+		},
+		{
+			"authors": [
 				"Van Kempen J",
 				"Gieselmann MA",
 				"Boyd M", 
@@ -118,6 +204,33 @@
 				"dynamics", 
 				"vision", 
 				"behavior"
+			]
+		},
+{
+			"authors": [
+				"Linden N",
+				"Tabuena D",
+				"Steinmetz NA", 
+				"Moody W",
+				"Brunton S",
+				"Brunton B"
+			],
+			"authors_short": [
+				"Linden",
+				"Tabuena",
+				"Steinmetz", 
+				"Moody",
+				"Brunton S",
+				"Brunton B"
+			],
+			"title": "Go with the FLOW: Visualizing spatiotemporal dynamics in optical widefield calcium imaging",
+			"year": "2020",
+			"journal": "arXiv",
+			"link": "https://arxiv.org/abs/2009.14283",
+			"tags": [
+				"preprint",
+				"widefield", 
+				"dynamics"
 			]
 		},
 		{
@@ -161,6 +274,7 @@
 			"year": "2019",
 			"journal": "Nature",
 			"link": "https://www.nature.com/articles/s41586-019-1787-x",
+			"pdflink": "Steinmetz et al - Nature - 2019.pdf",
 			"tags": [
 				"peerReview",
 				"selected",
@@ -243,6 +357,7 @@
 			"year": "2019",
 			"journal": "Current Opinion in Neurobiology",
 			"link": "https://doi.org/10.1016/j.conb.2019.09.003",
+			"pdflink": "Engel Steinmetz - 2019 - CurrOp.pdf",
 			"tags": [
 				"review",
 				"selected",
@@ -322,6 +437,7 @@
 			"pdflink": "Pettine et al - 2019 - PNAS.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"vision",
 				"microcircuits",
 				"behavior",
@@ -353,6 +469,7 @@
 			"link": "https://www.biorxiv.org/content/10.1101/703710v1",
 			"tags": [
 				"preprint",
+				"selected",
 				"neuropixels",
 				"widefield",
 				"behavior",
@@ -405,31 +522,6 @@
 			"tags": [
 				"preprint",
 				"neuropixels"
-			]
-		},
-		{
-			"authors": [
-				"Jacobs EAK",
-				"Steinmetz NA",
-				"Carandini M",
-				"Harris KD"
-			],
-			"title": "Cortical state fluctuations during sensory decision making",
-			"year": "2018",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/early/2018/06/16/348193",
-			"tags": [
-				"preprint",
-				"widefield",
-				"dynamics",
-				"behavior",
-				"brainwide"
-			],
-			"authors_short": [
-				"Jacobs",
-				"Steinmetz",
-				"Carandini",
-				"Harris"
 			]
 		},
 		{
@@ -597,6 +689,7 @@
 			"pdflink": "Stringer et al. - 2016 - Inhibitory control of correlated intrinsic variability in cortical networks.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"dynamics"
 			],
 			"authors_short": [
@@ -625,6 +718,7 @@
 			"pdflink": "Pachitariu et al. - 2016 - Fast and accurate spike sorting of high-channel count probes with KiloSort.pdf",
 			"tags": [
 				"peerReview",
+				"selected",
 				"methods",
 				"neuropixels"
 			],
