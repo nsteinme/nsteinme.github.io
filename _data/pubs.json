@@ -2,6 +2,116 @@
 	"papers": [
 		{
 			"authors": [
+				"Ottenheimer D*",
+				"Hjort M*",
+				"Bowen A*",
+				"Steinmetz NA^",
+				"Stuber G^"
+			],
+			"authors_short": [
+				"Ottenheimer*",
+				"Hjort*",
+				"Bowen*",
+				"Steinmetz^",
+				"Stuber^"
+			],
+			"title": "A stable, distributed code for cue value in mouse cortex during reward learning",
+			"year": "2022",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2022.07.13.499930v2.abstract",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Recanatesi S",
+				"Bradde S",
+				"Balasubramaniam V^",
+				"Steinmetz NA^",
+				"Shea-Brown E^"
+			],
+			"authors_short": [
+				"Recanatesi",
+				"Bradde",
+				"Balasubramaniam^",
+				"Steinmetz^",
+				"Shea-Brown^"
+			],
+			"title": "A scale-dependent measure of system dimensionality",
+			"year": "2022",
+			"journal": "Patterns",
+			"link": "https://doi.org/10.1016/j.patter.2022.100555",
+			"tags": [
+				"selected",
+				"neuropixels"
+			]
+		},
+		{
+			"authors": [
+				"The International Brain Laboratory",
+				"...",
+				"Churchland AK",
+				"Paninski L",
+				"Steinmetz NA^",
+				"et al."
+			],
+			"authors_short": [
+				"The International Brain Laboratory",
+				"...",
+				"Churchland^",
+				"Paninski^",
+				"Steinmetz^",
+				"et al."
+			],
+			"title": "Reproducibility of in-vivo electrophysiological measurements in mice",
+			"year": "2022",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2022.05.09.491042v3.abstract",
+			"tags": [
+				"preprint",
+				"selected",
+				"neuropixels",
+				"IBL"
+			]
+		},
+		{
+			"authors": [
+				"Zagha E",
+				"Ehrlich JC",
+				"Lee S",
+				"Lur G",
+				"O'Connor DH",
+				"Steinmetz NA",
+				"Stringer C",
+				"Yang H"
+			],
+			"authors_short": [
+				"Zagha",
+				"Ehrlich",
+				"Lee",
+				"Lur",
+				"O'Connor",
+				"Steinmetz",
+				"Stringer",
+				"Yang"
+			],
+			"title": "The importance of accounting for movement when relating neuronal activity to sensory and cognitive processes",
+			"year": "2022",
+			"journal": "Journal of Neuroscience",
+			"link": "https://doi.org/10.1523/JNEUROSCI.1919-21.2021",
+			"tags": [
+				"review",
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
 				"Steinmetz NA*",
 				"Aydin C*",
 				"Lebedeva A*",
@@ -19,13 +129,44 @@
 			],
 			"title": "Neuropixels 2.0: A miniaturized high-density probe for stable, long-term brain recordings",
 			"year": "2021",
-			"journal": "Science (in press)",
-			"link": "https://www.biorxiv.org/content/10.1101/2020.10.27.358291v1",
+			"journal": "Science",
+			"link": "https://science.sciencemag.org/content/372/6539/eabf4588",
+			"pdflink": "SteinmetzEtAl_2021_Neuropixels2.pdf",
 			"tags": [
 				"peerReview",
 				"selected",
 				"neuropixels",
 				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Zatka-Haas P*",
+				"Steinmetz NA*",
+				"Carandini M",
+				"Harris KD"
+			],
+			"authors_short": [
+				"Zatka-Haas*",
+				"Steinmetz*",
+				"Carandini",
+				"Harris"
+			],
+			"title": "Sensory coding and the causal impact of mouse cortex in a visual decision",
+			"year": "2021",
+			"journal": "eLife",
+			"link": "https://elifesciences.org/articles/63163",
+			"pdflink": "Zatka-Haas Steinmetz et al - 2021 - eLife.pdf",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"optogenetics",
+				"widefield",
+				"population",
+				"behavior",
+				"vision",
+				"cortex"
 			]
 		},
 		{
@@ -47,6 +188,7 @@
 			"year": "2021",
 			"journal": "Nature",
 			"link": "https://www.nature.com/articles/s41586-020-03166-8",
+			"pdflink": "Peters et al - 2021 - Nature.pdf",
 			"tags": [
 				"peerReview",
 				"selected",
@@ -57,6 +199,36 @@
 				"cortex",
 				"brainwide",
 				"selected"
+			]
+		},
+		{
+			"authors": [
+				"Shi Y-L",
+				"Steinmetz NA",
+				"Moore T",
+				"Boahen K",
+				"Engel TA"
+			],
+			"authors_short": [
+				"Shi",
+				"Steinmetz",
+				"Moore",
+				"Boahen",
+				"Engel"
+			],
+			"title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+			"year": "2022",
+			"journal": "Nature Communications",
+			"link": "https://www.nature.com/articles/s41467-021-27724-4",
+			"tags": [
+				"peerReview",
+				"selected",
+				"vision",
+				"cortex",
+				"population",
+				"behavior",
+				"attention",
+				"dynamics"
 			]
 		},
 		{
@@ -93,6 +265,88 @@
 		},
 		{
 			"authors": [
+				"Petersen PC",
+				"Siegle JH",
+				"Steinmetz NA",
+				"Mahallati S",
+				"Buzsáki G"
+			],
+			"authors_short": [
+				"Petersen",
+				"Siegle",
+				"Steinmetz",
+				"Mahallati",
+				"Buzsáki"
+			],
+			"title": "CellExplorer: A framework for visualizing and characterizing single neurons",
+			"year": "2021",
+			"journal": "Neuron",
+			"link": "https://doi.org/10.1016/j.neuron.2021.09.002",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels"
+			]
+		},
+		{
+			"authors": [
+				"Benjamin B",
+				"Steinmetz NA",
+				"Oza N",
+				"Aguayo J",
+				"Boahen K"
+			],
+			"authors_short": [
+				"Benjamin",
+				"Steinmetz",
+				"Oza",
+				"Aguayo",
+				"Boahen"
+			],
+			"title": "Neurogrid simulates cortical cell-types, active dendrites, and top-down attention",
+			"year": "2021",
+			"journal": "Neuromorphic Comp. and Eng.",
+			"link": "https://iopscience.iop.org/article/10.1088/2634-4386/ac0a5a/meta",
+			"tags": [
+				"peerReview",
+				"selected",
+				"modeling",
+				"attention"
+			]
+		},
+		{
+			"authors": [
+				"Zeraati R",
+				"Shi Y-L",
+				"Steinmetz NA",
+				"Gieselmann M",
+				"Thiele A",
+				"Moore T", 
+				"Levina A", 
+				"Engel T"
+			],
+			"authors_short": [
+				"Zeraati",
+				"Shi",
+				"Steinmetz",
+				"Gieselmann",
+				"Thiele",
+				"Moore",
+				"Levina",
+				"Engel"
+			],
+			"title": "Attentional modulation of intrinsic timescales in visual cortex and spatial networks",
+			"year": "2021",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2021.05.17.444537v1",
+			"tags": [
+				"preprint",
+				"vision",
+				"attention"
+			]
+		},
+		{
+			"authors": [
 				"'t Hart BM'",
 				"...",
 				"Steinmetz NA",
@@ -105,11 +359,10 @@
 				"et al."
 			],
 			"title": "Neuromatch Academy: a 3-week, online summer school in computational neuroscience",
-			"year": "2021",
-			"journal": "OSF Preprints",
-			"link": "https://doi.org/10.31219/osf.io/9fp4v",
+			"year": "2022",
+			"journal": "J. of Open Science Education",
+			"link": "https://doi.org/10.21105/jose.00118",
 			"tags": [
-				"preprint",
 				"neuropixels"
 			]
 		},
@@ -180,84 +433,24 @@
 		},
 		{
 			"authors": [
-				"Zatka-Haas P*",
-				"Steinmetz NA*",
-				"Carandini M",
-				"Harris KD"
-			],
-			"authors_short": [
-				"Zatka-Haas*",
-				"Steinmetz*",
-				"Carandini",
-				"Harris"
-			],
-			"title": "A perceptual decision requires sensory but not action coding in mouse cortex",
-			"year": "2020",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/501627v3",
-			"tags": [
-				"preprint",
-				"selected",
-				"neuropixels",
-				"optogenetics",
-				"widefield",
-				"population",
-				"behavior",
-				"vision",
-				"cortex"
-			]
-		},
-		{
-			"authors": [
 				"The International Brain Laboratory",
 				"...",
 				"Steinmetz NA",
 				"et al."
 			],
 			"authors_short": [
-				"<a href=http://www.internationalbrainlab.org>The IBL</a>",
+				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
 				"...",
 				"Steinmetz",
 				"et al."
 			],
 			"title": "Data architecture for a large-scale neuroscience collaboration",
-			"year": "2020",
-			"journal": "bioRxiv",
+			"year": "2022",
+			"journal": "Nature Methods (in press)",
 			"link": "https://www.biorxiv.org/content/10.1101/827873v3",
 			"tags": [
-				"preprint",
 				"selected",
 				"IBL"
-			]
-		},
-		{
-			"authors": [
-				"Shi Y-L",
-				"Steinmetz NA",
-				"Moore T",
-				"Boahen K",
-				"Engel TA"
-			],
-			"authors_short": [
-				"Shi",
-				"Steinmetz",
-				"Moore",
-				"Boahen",
-				"Engel"
-			],
-			"title": "Influence of On-Off dynamics and selective attention on the spatial pattern of correlated variability in neocortex",
-			"year": "2020",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2020.09.02.279893v1",
-			"tags": [
-				"preprint",
-				"selected",
-				"vision",
-				"cortex",
-				"population",
-				"behavior",
-				"attention",
-				"dynamics"
 			]
 		},
 		{
@@ -278,11 +471,12 @@
 				"Brunton B"
 			],
 			"title": "Go with the FLOW: Visualizing spatiotemporal dynamics in optical widefield calcium imaging",
-			"year": "2020",
-			"journal": "arXiv",
-			"link": "https://arxiv.org/abs/2009.14283",
+			"year": "2021",
+			"journal": "J. of the Royal Society Interface",
+			"link": "https://royalsocietypublishing.org/doi/10.1098/rsif.2021.0523",
 			"tags": [
-				"preprint",
+				"peerReview",
+				"selected",
 				"widefield", 
 				"dynamics"
 			]
