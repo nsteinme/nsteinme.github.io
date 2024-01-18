@@ -2,6 +2,174 @@
 	"papers": [
 		{
 			"authors": [
+				"Ye Z", 
+				"Bull MS",
+				"Li A",
+				"Birman D",
+				"Daigle TL",
+				"Tasic B",
+				"Zeng H",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Ye", 
+				"Bull",
+				"Li",
+				"Birman",
+				"Daigle",
+				"Tasic",
+				"Zeng",
+				"Steinmetz"
+			],
+			"title": "Brain-wide topographic coordination of traveling spiral waves",
+			"year": "2023",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2023.12.07.570517",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"widefield",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Ye Z*", 
+				"Shelton A*",
+				"Shaker J",
+				"Boussard J",
+				"Colonell J",
+				"...",
+				"Mora Lopez C",
+				"Dutta B",
+				"Paninski L",
+				"Siegle JH",
+				"Koch C",
+				"Olsen SR",
+				"Harris TD",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Ye*", 
+				"Shelton*",
+				"Shaker",
+				"Boussard",
+				"Colonell",
+				"...",
+				"Mora Lopez",
+				"Dutta",
+				"Paninski",
+				"Siegle",
+				"Koch",
+				"Olsen",
+				"Harris",
+				"Steinmetz"
+			],
+			"title": "Ultra-high density electrodes improve detection, yield, and cell type specificity of brain recordings",
+			"year": "2023",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2023.08.23.554527",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Birman D", 
+				"Yang KJ",
+				"West SJ",
+				"Karsh B",
+				"Browning Y",
+				"The International Brain Laboratory",
+				"Siegle J",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Birman",
+				"Yang",
+				"West",
+				"Karsh",
+				"Browning",
+				"The International Brain Laboratory",
+				"Siegle",
+				"Steinmetz"
+			],
+			"title": "Pinpoint: trajectory planning for multi-probe electrophysiology and injections in an interactive web-based 3D environment",
+			"year": "2023",
+			"journal": "eLife [Reviewed Preprint]",
+			"link": "https://elifesciences.org/reviewed-preprints/91662",
+			"tags": [
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Findling C", 
+				"Hubert F",
+				"The International Brain Laboratory",
+				"...",
+				"Birman D",
+				"Roth N",
+				"Steinmetz NA",
+				"et al."
+			],
+			"authors_short": [
+				"Findling",
+				"Hubert",
+				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
+				"...",
+				"Birman",
+				"Roth",
+				"Steinmetz",
+				"et al."
+			],
+			"title": "Brain-wide representations of prior information in mouse decision-making",
+			"year": "2023",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2023.07.04.547684",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"The International Brain Laboratory",
+				"...",
+				"Birman D",
+				"Roth N",
+				"Steinmetz NA",
+				"et al."
+			],
+			"authors_short": [
+				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
+				"...",
+				"Birman",
+				"Roth",
+				"Steinmetz",
+				"et al."
+			],
+			"title": "A brain-wide map of neural activity during complex behaviour",
+			"year": "2023",
+			"journal": "bioRxiv",
+			"link": "https://www.biorxiv.org/content/10.1101/2023.07.04.547681",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
 				"Ottenheimer D*",
 				"Hjort M*",
 				"Bowen A*",
@@ -16,9 +184,116 @@
 				"Stuber^"
 			],
 			"title": "A stable, distributed code for cue value in mouse cortex during reward learning",
-			"year": "2022",
+			"year": "2023",
+			"journal": "eLife",
+			"link": "https://elifesciences.org/articles/84604",
+			"tags": [
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Song M",
+				"Shin EJ",
+				"Seo H",
+				"Soltani A",
+				"Steinmetz NA",
+				"Lee D",
+				"Jung MW",
+				"Paik S-B"
+			],
+			"authors_short": [
+				"Song",
+				"Shin",
+				"Seo",
+				"Soltani",
+				"Steinmetz",
+				"Lee",
+				"Jung",
+				"Paik"
+			],
+			"title": "Hierarchical gradient of timescales in the mammalian forebrain",
+			"year": "2023",
 			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2022.07.13.499930v2.abstract",
+			"link": "https://doi.org/10.1101/2023.05.12.540610",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Zhang Y",
+				"He T",
+				"Boussard J",
+				"Windolf C",
+				"Winter O",
+				"Trautmann E",
+				"Roth N",
+				"Barrell H",
+				"Churchland M",
+				"Steinmetz NA",
+				"The International Brain Laboratory",
+				"Varol E",
+				"Hurwitz C",
+				"Paninski L"
+			],
+			"authors_short": [
+				"Zhang",
+				"He",
+				"Boussard",
+				"Windolf",
+				"Winter",
+				"Trautmann",
+				"Roth",
+				"Barrell",
+				"Churchland",
+				"Steinmetz",
+				"IBL",
+				"Varol",
+				"Hurwitz",
+				"Paninski"
+			],
+			"title": "Bypassing spike sorting: Density-based decoding using spike localization from dense multielectrode probes",
+			"year": "2023",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2023.09.21.558869",
+			"tags": [
+				"selected",
+				"preprint",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Windolf C",
+				"...",
+				"Ye Z",
+				"Shaker J",
+				"Steinmetz NA",
+				"...",
+				"Paninski L",
+				"Varol E"
+			],
+			"authors_short": [
+				"Windolf",
+				"...",
+				"Ye",
+				"Shaker",
+				"Steinmetz",
+				"...",
+				"Paninski",
+				"Varol"
+			],
+			"title": "DREDge: robust motion correction for high-density extracellular recordings across species",
+			"year": "2023",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2023.10.24.563768",
 			"tags": [
 				"selected",
 				"preprint",
@@ -60,7 +335,7 @@
 				"et al."
 			],
 			"authors_short": [
-				"The International Brain Laboratory",
+				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
 				"...",
 				"Churchland^",
 				"Paninski^",
@@ -335,13 +610,13 @@
 				"Levina",
 				"Engel"
 			],
-			"title": "Attentional modulation of intrinsic timescales in visual cortex and spatial networks",
-			"year": "2021",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2021.05.17.444537v1",
+			"title": "Intrinsic timescales in the visual cortex change with selective attention and reflect spatial connectivity",
+			"year": "2023",
+			"journal": "Nature Communications",
+			"link": "https://www.nature.com/articles/s41467-023-37613-7",
 			"tags": [
-				"preprint",
 				"vision",
+				"selected",
 				"attention"
 			]
 		},
@@ -445,9 +720,9 @@
 				"et al."
 			],
 			"title": "Data architecture for a large-scale neuroscience collaboration",
-			"year": "2022",
-			"journal": "Nature Methods (in press)",
-			"link": "https://www.biorxiv.org/content/10.1101/827873v3",
+			"year": "2023",
+			"journal": "Nature Methods",
+			"link": "https://www.nature.com/articles/s41592-022-01742-6",
 			"tags": [
 				"selected",
 				"IBL"
