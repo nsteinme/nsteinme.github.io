@@ -2,35 +2,216 @@
 	"papers": [
 		{
 			"authors": [
-				"Ye Z", 
-				"Bull MS",
-				"Li A",
-				"Birman D",
-				"Daigle TL",
-				"Tasic B",
-				"Zeng H",
+				"Li AJ",
+				"Lu Z",
+				"Ladd AL",
+				"Matveev P",
+				"Shea-Brown E",
 				"Steinmetz NA"
 			],
 			"authors_short": [
-				"Ye", 
-				"Bull",
 				"Li",
-				"Birman",
-				"Daigle",
-				"Tasic",
-				"Zeng",
+				"Lu",
+				"Ladd",
+				"Matveev",
+				"Shea-Brown",
 				"Steinmetz"
 			],
-			"title": "Brain-wide topographic coordination of traveling spiral waves",
-			"year": "2023",
+			"title": "Global and local origins of trial-to-trial spike count variability in visual cortex",
+			"year": "2025",
 			"journal": "bioRxiv",
-			"link": "https://doi.org/10.1101/2023.12.07.570517",
+			"link": "https://doi.org/10.1101/2025.08.08.669442",
 			"tags": [
 				"selected",
 				"preprint",
 				"neuropixels",
+				"vision",
+				"cortex",
+				"population",
+				"brainwide",
+				"optogenetics"
+			]
+		},
+		{
+			"authors": [
+				"Lakunina A",
+				"Socha KZ",
+				"Ladd A",
+				"Bowen AJ",
+				"...",
+				"Li A",
+				"...",
+				"Ye Z",
+				"...",
+				"Steinmetz NA",
+				"Svoboda K",
+				"Siegle JH",
+				"Carandini M"
+			],
+			"authors_short": [
+				"Lakunina",
+				"Socha",
+				"Ladd",
+				"Bowen",
+				"...",
+				"Li",
+				"...",
+				"Ye",
+				"...",
+				"Steinmetz",
+				"Svoboda",
+				"Siegle",
+				"Carandini"
+			],
+			"title": "Neuropixels Opto: Combining high-resolution electrophysiology and optogenetics",
+			"year": "2025",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2025.02.04.636286",
+			"tags": [
+				"preprint",
+				"selected",
+				"neuropixels",
+				"optogenetics",
+				"methods"
+			]
+		},
+		{
+			"authors": [
+				"Lee EK",
+				"Gül AE",
+				"Heller G",
+				"Lakunina A",
+				"Yu H",
+				"Shelton A",
+				"Olsen S",
+				"Steinmetz NA",
+				"Hurwitz C",
+				"Jaramillo S",
+				"Przytycki PF",
+				"Chandrasekaran C"
+			],
+			"authors_short": [
+				"Lee",
+				"Gül",
+				"Heller",
+				"Lakunina",
+				"Yu",
+				"Shelton",
+				"Olsen",
+				"Steinmetz",
+				"Hurwitz",
+				"Jaramillo",
+				"Przytycki",
+				"Chandrasekaran"
+			],
+			"title": "A multimodal approach for visualization and identification of electrophysiological cell types in vivo",
+			"year": "2025",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2025.07.24.666654",
+			"tags": [
+				"preprint",
+				"neuropixels",
+				"methods"
+			]
+		},
+		{
+			"authors": [
+				"Matveev P",
+				"Li AJ",
+				"Ye Z",
+				"Bowen AJ",
+				"Opitz-Araya X",
+				"Ting JT",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Matveev",
+				"Li",
+				"Ye",
+				"Bowen",
+				"Opitz-Araya",
+				"Ting",
+				"Steinmetz"
+			],
+			"title": "Simultaneous mesoscopic measurement and manipulation of mouse cortical activity",
+			"year": "2024",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2024.11.01.621418",
+			"tags": [
+				"preprint",
+				"selected",
 				"widefield",
+				"optogenetics",
+				"cortex",
 				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Birman D",
+				"Chapuis G",
+				"Faulkner M",
+				"Rossant C",
+				"the International Brain Laboratory",
+				"...",
+				"Steinmetz NA",
+				"Urai AE",
+				"Wells MJ",
+				"West SJ",
+				"Winter O"
+			],
+			"authors_short": [
+				"Birman",
+				"Chapuis",
+				"Faulkner",
+				"Rossant",
+				"<a href=http://www.internationalbrainlab.org>the International Brain Laboratory</a>",
+				"...",
+				"Steinmetz",
+				"Urai",
+				"Wells",
+				"West",
+				"Winter"
+			],
+			"title": "Interactive data exploration websites for large-scale electrophysiology",
+			"year": "2024",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2024.06.07.597950",
+			"tags": [
+				"preprint",
+				"IBL",
+				"neuropixels",
+				"brainwide",
+				"methods"
+			]
+		},
+		{
+			"authors": [
+				"Lewis SM",
+				"Suarez LM",
+				"Rigolli N",
+				"Franks KM",
+				"Steinmetz NA",
+				"Gire DH"
+			],
+			"authors_short": [
+				"Lewis",
+				"Suarez",
+				"Rigolli",
+				"Franks",
+				"Steinmetz",
+				"Gire"
+			],
+			"title": "The spiking output of the mouse olfactory bulb encodes large-scale temporal features of natural odor environments",
+			"year": "2024",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2024.03.01.582978",
+			"tags": [
+				"preprint",
+				"neuropixels",
+				"olfaction",
+				"population",
+				"behavior"
 			]
 		},
 		{
@@ -67,13 +248,211 @@
 				"Steinmetz"
 			],
 			"title": "Ultra-high density electrodes improve detection, yield, and cell type specificity of brain recordings",
+			"year": "2025",
+			"journal": "Neuron (in press)",
+			"link": "https://www.biorxiv.org/content/10.1101/2023.08.23.554527",
+			"tags": [
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Findling C", 
+				"Hubert F",
+				"The International Brain Laboratory",
+				"...",
+				"Birman D",
+				"Roth N",
+				"Steinmetz NA",
+				"et al."
+			],
+			"authors_short": [
+				"Findling",
+				"Hubert",
+				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
+				"...",
+				"Birman",
+				"Roth",
+				"Steinmetz",
+				"et al."
+			],
+			"title": "Brain-wide representations of prior information in mouse decision-making",
+			"year": "2025",
+			"journal": "Nature",
+			"link": "https://doi.org/10.1038/s41586-025-09226-1",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"The International Brain Laboratory",
+				"...",
+				"Birman D",
+				"Roth N",
+				"Steinmetz NA",
+				"et al."
+			],
+			"authors_short": [
+				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
+				"...",
+				"Birman",
+				"Roth",
+				"Steinmetz",
+				"et al."
+			],
+			"title": "A brain-wide map of neural activity during complex behaviour",
+			"year": "2025",
+			"journal": "Nature",
+			"link": "https://doi.org/10.1038/s41586-025-09235-0",
+			"tags": [
+				"peerReview",
+				"selected",
+				"neuropixels",
+				"brainwide"
+			]
+		},
+		{
+			"authors": [
+				"Yu H",
+				"Lyu H", 
+				"Xu EY",
+				"Windolf C",
+				"Lee EK",
+				"Yang F",
+				"Shelton AM",
+				"Olsen S",
+				"Minavi S",
+				"Winter O",
+				"International Brain Laboratory",
+				"Dyer EL",
+				"Chandrasekaran C",
+				"Steinmetz NA",
+				"Paninski L",
+				"Hurwitz C"
+			],
+			"authors_short": [
+				"Yu",
+				"Lyu",
+				"Xu", 
+				"Windolf",
+				"Lee",
+				"Yang",
+				"Shelton",
+				"Olsen",
+				"Minavi",
+				"Winter",
+				"International Brain Laboratory",
+				"Dyer",
+				"Chandrasekaran",
+				"Steinmetz",
+				"Paninski",
+				"Hurwitz"
+			],
+			"title": "In vivo cell-type and brain region classification via multimodal contrastive learning",
+			"year": "2025",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2024.11.05.622159",
+			"tags": [
+				"preprint",
+				"neuropixels",
+				"brainwide",
+				"IBL"
+			]
+		}, 
+		{
+			"authors": [
+				"Deveau C", 
+				"Zhou Z",
+				"LaFosse PK",
+				"Deng Y", 
+				"Mirbagheri S",
+				"Steinmetz NA",
+				"Histed MH"
+			],
+			"authors_short": [
+				"Deveau", 
+				"Zhou",
+				"LaFosse",
+				"Deng", 
+				"Mirbagheri",
+				"Steinmetz",
+				"Histed"
+			],
+			"title": "Active filtering of sequences of neural activity by recurrent circuits of sensory cortex",
+			"year": "2024",
+			"journal": "bioRxiv",
+			"link": "https://doi.org/10.1101/2024.02.24.581890",
+			"tags": [
+				"preprint",
+				"vision", 
+				"psychophysics",
+				"neuropixels"
+			]
+		},
+		{
+			"authors": [
+				"Chandrasekaran AD", 
+				"Vermani A",
+				"Gupta P",
+				"Steinmetz NA",
+				"Moore T",
+				"Sridharan D"
+			],
+			"authors_short": [
+				"Chandrasekaran", 
+				"Vermani",
+				"Gupta",
+				"Steinmetz",
+				"Moore",
+				"Sridharan"
+			],
+			"title": "Dissociable components of attention exhibit distinct neuronal signatures in primate visual cortex",
+			"year": "2024",
+			"journal": "Science Advances",
+			"link": "https://doi.org/10.1126/sciadv.adi0645",
+			"tags": [
+				"peerReview",
+				"attention",
+				"vision", 
+				"psychophysics"
+			]
+		},
+		{
+			"authors": [
+				"Ye Z", 
+				"Bull MS",
+				"Li A",
+				"Birman D",
+				"Daigle TL",
+				"Tasic B",
+				"Zeng H",
+				"Steinmetz NA"
+			],
+			"authors_short": [
+				"Ye", 
+				"Bull",
+				"Li",
+				"Birman",
+				"Daigle",
+				"Tasic",
+				"Zeng",
+				"Steinmetz"
+			],
+			"title": "Brain-wide topographic coordination of traveling spiral waves",
 			"year": "2023",
 			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2023.08.23.554527",
+			"link": "https://doi.org/10.1101/2023.12.07.570517",
 			"tags": [
 				"selected",
 				"preprint",
 				"neuropixels",
+				"widefield",
 				"brainwide"
 			]
 		},
@@ -110,66 +489,6 @@
 		},
 		{
 			"authors": [
-				"Findling C", 
-				"Hubert F",
-				"The International Brain Laboratory",
-				"...",
-				"Birman D",
-				"Roth N",
-				"Steinmetz NA",
-				"et al."
-			],
-			"authors_short": [
-				"Findling",
-				"Hubert",
-				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
-				"...",
-				"Birman",
-				"Roth",
-				"Steinmetz",
-				"et al."
-			],
-			"title": "Brain-wide representations of prior information in mouse decision-making",
-			"year": "2023",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2023.07.04.547684",
-			"tags": [
-				"selected",
-				"preprint",
-				"neuropixels",
-				"brainwide"
-			]
-		},
-		{
-			"authors": [
-				"The International Brain Laboratory",
-				"...",
-				"Birman D",
-				"Roth N",
-				"Steinmetz NA",
-				"et al."
-			],
-			"authors_short": [
-				"<a href=http://www.internationalbrainlab.org>The International Brain Laboratory</a>",
-				"...",
-				"Birman",
-				"Roth",
-				"Steinmetz",
-				"et al."
-			],
-			"title": "A brain-wide map of neural activity during complex behaviour",
-			"year": "2023",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2023.07.04.547681",
-			"tags": [
-				"selected",
-				"preprint",
-				"neuropixels",
-				"brainwide"
-			]
-		},
-		{
-			"authors": [
 				"Ottenheimer D*",
 				"Hjort M*",
 				"Bowen A*",
@@ -188,6 +507,7 @@
 			"journal": "eLife",
 			"link": "https://elifesciences.org/articles/84604",
 			"tags": [
+				"peerReview",
 				"selected",
 				"neuropixels",
 				"brainwide"
@@ -215,12 +535,11 @@
 				"Paik"
 			],
 			"title": "Hierarchical gradient of timescales in the mammalian forebrain",
-			"year": "2023",
-			"journal": "bioRxiv",
-			"link": "https://doi.org/10.1101/2023.05.12.540610",
+			"year": "2024",
+			"journal": "PNAS",
+			"link": "https://doi.org/10.1073/pnas.2415695121",
 			"tags": [
-				"selected",
-				"preprint",
+				"peerReview",
 				"neuropixels",
 				"brainwide"
 			]
@@ -259,12 +578,11 @@
 				"Paninski"
 			],
 			"title": "Bypassing spike sorting: Density-based decoding using spike localization from dense multielectrode probes",
-			"year": "2023",
-			"journal": "bioRxiv",
-			"link": "https://doi.org/10.1101/2023.09.21.558869",
+			"year": "2024",
+			"journal": "NeurIPS",
+			"link": "https://proceedings.neurips.cc/paper_files/paper/2023/file/f499387f191d6be56e68966181095878-Paper-Conference.pdf",
 			"tags": [
-				"selected",
-				"preprint",
+				"peerReview",
 				"neuropixels",
 				"brainwide"
 			]
@@ -291,12 +609,12 @@
 				"Varol"
 			],
 			"title": "DREDge: robust motion correction for high-density extracellular recordings across species",
-			"year": "2023",
-			"journal": "bioRxiv",
-			"link": "https://doi.org/10.1101/2023.10.24.563768",
+			"year": "2025",
+			"journal": "Nature Methods",
+			"link": "https://doi.org/10.1038/s41592-025-02614-5",
 			"tags": [
+				"peerReview",
 				"selected",
-				"preprint",
 				"neuropixels",
 				"brainwide"
 			]
@@ -321,6 +639,7 @@
 			"journal": "Patterns",
 			"link": "https://doi.org/10.1016/j.patter.2022.100555",
 			"tags": [
+				"peerReview",
 				"selected",
 				"neuropixels"
 			]
@@ -343,11 +662,11 @@
 				"et al."
 			],
 			"title": "Reproducibility of in-vivo electrophysiological measurements in mice",
-			"year": "2022",
-			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/2022.05.09.491042v3.abstract",
+			"year": "2025",
+			"journal": "eLife",
+			"link": "https://doi.org/10.7554/eLife.100840.3",
 			"tags": [
-				"preprint",
+				"peerReview",
 				"selected",
 				"neuropixels",
 				"IBL"
@@ -584,7 +903,6 @@
 			"link": "https://iopscience.iop.org/article/10.1088/2634-4386/ac0a5a/meta",
 			"tags": [
 				"peerReview",
-				"selected",
 				"modeling",
 				"attention"
 			]
@@ -616,13 +934,12 @@
 			"link": "https://www.nature.com/articles/s41467-023-37613-7",
 			"tags": [
 				"vision",
-				"selected",
 				"attention"
 			]
 		},
 		{
 			"authors": [
-				"'t Hart BM'",
+				"'t Hart BM",
 				"...",
 				"Steinmetz NA",
 				"et al."
@@ -774,7 +1091,7 @@
 			"title": "Why not record from every electrode with a CMOS scanning probe?",
 			"year": "2020",
 			"journal": "bioRxiv",
-			"link": "https://www.biorxiv.org/content/10.1101/275818v8",
+			"link": "https://www.biorxiv.org/content/10.1101/275818",
 			"tags": [
 				"preprint",
 				"neuropixels"
@@ -1119,7 +1436,7 @@
 			"title": "Does the Superior Colliculus Control Perceptual Sensitivity or Choice Bias during Attention? Evidence from a Multialternative Decision Framework",
 			"year": "2017",
 			"journal": "Journal of Neuroscience",
-			"link": "httphttps://www.ncbi.nlm.nih.gov/pubmed/28100734",
+			"link": "https://www.ncbi.nlm.nih.gov/pubmed/28100734",
 			"pdflink": "Sridharan et al. - 2017 - Does the Superior Colliculus Control Perceptual Sensitivity or Choice Bias during Attention.pdf",
 			"tags": [
 				"peerReview",
