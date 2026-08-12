@@ -29,11 +29,11 @@
      --lrule                  hairline on light
      --accent/--accent-2      the two brand accents
      --on-accent              ink that sits on --accent
-     --d0 ... --d4              ordered ramp for data (canvas colourmaps read these)
+     --d0 ... --d4              ordered ramp for data (canvas colormaps read these)
 
    Each mockup maps these onto its own semantic tokens, so the same palette can
    drive a light-bodied editorial page and a fully dark one.
-   Neutrals are hue-biased toward each palette's accent rather than pure grey.
+   Neutrals are hue-biased toward each palette's accent rather than pure gray.
 --------------------------------------------------------------------------- */
 
 /* 1 -- SIGNAL : deep indigo ground, electric cyan signal */
@@ -111,7 +111,7 @@
   --d4: #ff6f4e;
 }
 
-/* 4 -- ATLAS : near-monochrome page, all colour comes from the data itself */
+/* 4 -- ATLAS : near-monochrome page, all color comes from the data itself */
 [data-palette="atlas"] {
   --deep: #07070a;
   --dark: #0d0d11;
@@ -704,7 +704,7 @@ canvas { display: block; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
   gap: 1px;
-  /* Cells carry their own hairline instead of a shared backing colour, so a part-filled
+  /* Cells carry their own hairline instead of a shared backing color, so a part-filled
      last row leaves empty space rather than a solid slab. */
 }
 .person {
@@ -980,7 +980,7 @@ canvas { display: block; }
             systems underlying perception and cognition across the brain. We combine large-scale
             electrophysiology using Neuropixels probes, calcium imaging across the cortex, and
             systematic optogenetic manipulation, with behavioral tasks precise enough to model.
-            This work has been recognised with a Pew Biomedical Scholar award, a
+            This work has been recognized with a Pew Biomedical Scholar award, a
             Klingenstein-Simons Fellowship in Neuroscience, and an NSF CAREER award.
           </p>
         </div>
@@ -1104,7 +1104,7 @@ const SL = (() => {
              rectified: !!json.meta.rectified };
   }
 
-  /* ------------------------------------------------------------- colour ramp */
+  /* ------------------------------------------------------------- color ramp */
   const hex = (s) => {
     s = s.trim().replace('#', '');
     if (s.length === 3) s = s.split('').map((c) => c + c).join('');
@@ -1369,10 +1369,10 @@ const SL = (() => {
      Rebuilds each frame as dF/F = U \u00b7 dV and paints it through the palette ramp.
   */
   function widefield(cv, wf, opts = {}) {
-    // `gain` divides the colour limit, so >1 saturates sooner and pushes real activation
+    // `gain` divides the color limit, so >1 saturates sooner and pushes real activation
     // into the warm end of the ramp instead of leaving the whole frame mid-scale. Prefer
     // tuning this over `gamma`: a power curve drags the highlights down along with the
-    // baseline, and past about 1.2 the activation peaks stop reaching the warm colours.
+    // baseline, and past about 1.2 the activation peaks stop reaching the warm colors.
     const o = Object.assign({ speed: 1, gain: 1.35, alpha: 1, fit: 'contain', gamma: 1 }, opts);
     const ctx = cv.getContext('2d');
     const { H, W, K, T, U, V } = wf;
@@ -1694,7 +1694,7 @@ const SL = (() => {
       const X = (dc) => x0 + ((dc + 100) / 200) * (x1 - x0);
       const Y = (v) => y1 - v * (y1 - y0);
 
-      // canvas cannot parse var() in a font string or a colour, so resolve them here
+      // canvas cannot parse var() in a font string or a color, so resolve them here
       const cs = getComputedStyle(document.documentElement);
       const mono = cs.getPropertyValue('--mono').trim() || 'monospace';
       ctx.lineWidth = Math.max(1, dpr);
@@ -1851,7 +1851,7 @@ const SL = (() => {
 
 /* Shared page bootstrap for the mockup A family: palette / theme / typeface defaults,
    the circuit traces, the header state and menu, and the sliver of raster behind the
-   header bar. Pages add their own behaviour after this. */
+   header bar. Pages add their own behavior after this. */
 
 document.documentElement.dataset.palette = 'teal';
 document.documentElement.dataset.theme = 'dark';
